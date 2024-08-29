@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pge</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section id="login-sec">
+        <div id="outer_box1">
+            <div class="login">
+                <ol id="log_process">
+                    <li>
+                        <h3>Login</h3>
+                    </li>
+                    <li id="sign_up">
+                        <p>Doesn't have an account yet?</p>
+                        <h4 id="new_user_signup_link" onclick="signuphandler()">Singn up</h4></sub>
+                    </li>
+                    <li id="mail">
+                        <label for="user_email"><b>Email Address</b></label>
+                        <input type="email" id="user_email" placeholder="You@example.com"
+                            onchange="loginchanger(event,'email')">
+                    </li>
+                    <li id="password_lable">
+                        <div id="password_forgot">
+                            <label for="user_password"><b>Password</b></label>
+                            <label id="forgot_option">Forgot password?</label>
+                        </div>
+                        <input type="password" id="user_password" placeholder="Enter 6 character or more"
+                            onchange="loginchanger(event,'password')">
+                    </li>
+                    <li><input id="check_box" type="checkbox"><label id="remember">Remember me</label></li>
+                    <li><button id="log_button" onclick="clickhandler()" type="button">LOGIN</button></li>
+                    <li class="log_info">
+                        <div id="line1"></div>
+                        <sub>of login with</sub>
+                        <div id="line2"></div>
+                    </li>
+                    <li id="google_facebook">
+                        <button type="button" id="google_link">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            <a id="link1" target="_blank" href="https://www.google.co.in">GOOGLE</a>
+                        </button>
+                        <button type="button" id="facebook_link">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <a id="link2" target="_blank" href="https://www.facebook.com">FACEBOOK</a>
+                        </button>
+                    </li>
+                </ol>
+                <div id="new_user">
+                    <form action="/submit" method="post" id="new_user_form">
+                        <h3 id="signup_highlight_text">Sign up</h3>
+                        <label id="singnup_namelable">User name</label>
+                        <input type="text" id="sign_up_name" placeholder="Enter your name"
+                            onchange="signupchanger(event,'name')">
+                        <label id="signup_emaillable">Email</label>
+                        <input type="email" id="sign_up_email" placeholder="You@exaple.com"
+                            onchange="signupchanger(event,'email')">
+                        <label id="signup_passwordlable">Password</label>
+                        <input type="password" id="sign_up_password" placeholder="Enter 6 character or more"
+                            onchange="signupchanger(event,'password')">
+                        <label id="signup_numberlable">Phone number</label>
+                        <input type="number" id="sign_up_phonenumber" placeholder="Enter your phone number"
+                            onchange="signupchanger(event,'phonenumber')">
+                        <button type="button" id="sign_up_button" onclick="submithandler()">SUBMIT</button>
+                        <span id="logpage_datas_visible_link">
+                            <sub id="back_to_login" onclick="get_login_page()">Back to login</sub>
+                            <sub id="provided_datas" onclick="provideddatas()">Verify</sub>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <div id="image">
+                <img id="login_image" src="Capture.PNG" alt="Login image">
+            </div>
+        </div>
+    </section>
+    <div class="parent_loader">
+        <div class="loader"></div>
+    </div>    
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

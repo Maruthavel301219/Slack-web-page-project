@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Slack.css">
+    <link rel="stylesheet" href="Slack_hidden_css_part.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="slack_head">
+            <div class="left_side_header">   
+                <div class="logo">
+                 <img src="header_logo\slack-salesforce-logo.png" alt="Slack-salesforce-logo">
+                </div>
+                <div>
+                    <ul class="header_options">
+                        <li>Features <i class="fa fa-chevron-down" aria-hidden="true"></i> </li>
+                        <li>Solutions <i onclick="clickHandler()" class="fa fa-chevron-down" id="chevron_head" aria-hidden="true"></i> </li>
+                        <li class="header_enterprise">Enterprise </li>
+                        <li>Resources <i class="fa fa-chevron-down" aria-hidden="true"></i> </li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_side_header">
+                <div class="signin_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <h4 id="signin">Sign in</h4>
+               </div>
+               <div class="header_buttons">
+                    <button class="header_button1" type="button">TALK TO SALES</button>
+                    <button class="header_button2" type="button">GET STARTED</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="header_hidden_sec-1">
+        <div id="header_hidden_sub_sec">
+           <div class="header_hidden_card1">  
+               <div class="card1_list">
+                 <ul>
+                   <li><b>BY DEPARTMENT</b></li>
+                   <li>Engineering</li>
+                   <li>IT</li>
+                   <li>Customer service</li>
+                   <li>Sales</li>
+                   <li>Project management</li>
+                   <li>Marketing</li>
+                   <li>Human Resources</li>
+                   <li>Security</li>
+                 </ul>
+                 <ul>
+                    <li><b>BY INDUSTRY</b></li>
+                    <li>Technology</li>
+                    <li>Media</li>
+                    <li>Small business</li>
+                    <li>Financial services</li>
+                    <li>Retail</li>
+                    <li>Education</li>
+                    <li>Health and life sciences</li>
+                 </ul>
+               </div>
+               <span class="down_link_option">
+                  <p>Watch demo</p>
+                  <p class="vertical_code"></p>
+                  <p>Download Slack</p>
+               </span>
+           </div>
+           <div class="header_hidden_card2">
+             <ul>
+                 <li><b>FEATURED</b></li>
+                 <li><img src="header_hidden_img\promo-solutions@2x.png" alt="promo solution image"></li>
+                 <li><p>
+                     How OpenAI connects customers and 
+                     expands ChatGPT with Slack
+                 </p></li>
+                 <li>Read story</li>
+                 <li><hr></li>
+             </ul>
+             <ul>
+                 <li>Task management</li>
+                 <li>Scale</li>
+                 <li>Engagement</li>
+                 <li>Trust</li>
+             </ul>
+           </div>
+        </div>   
+    </section>
+    <section class="sec-1">
+        <div class="component1">
+            <div class="divison1_component1">
+                <h2 class="subhead_of_component1">SLACK CONNECT</h2>
+                <h1 class="highlight_text_component1">A better way to work with people outside your company</h1>
+                <p class="about_component1">Slack Connect transforms the way you work 
+                                        alongside your partners, vendors or
+                                        customers by moving conversations out of
+                                        siloed email threads and into the same place.</p>
+                <button class="button1_component1" type="button">GET STARTED</button>
+                <button class="button2_component1" type="button">TALK TO SALES</button>
+            </div>
+            <div class="division2_componet1">
+                <img class="img_component1"src="component1_img\img-slack-connect-hero.png" alt="Slack connect hero img">
+            </div>
+        </div>
+    </section>
+    <section class="sec-2">
+        <div class="component2">
+            <div class="division1_component2">
+                <h1>Get more done in Slack Connect</h1>
+                <p>Whether you're working with vendors or sealing deals with a client,
+                     Slack Connect is here to help.
+                </p>
+                <ul class="list_of_component2">
+                    <li><h1>4X</h1><br><sub>faster deal cycles for a sales team </sub></li>
+                    <li><h1>64% </h1><br><sub>decrease in backlog tickets for a customer support team</sub></li>
+                    <li><h1>2X</h1><br><sub>faster close in company acquisition for a business development team </sub></li>
+                </ul>
+                <sub>Claims and figures based on specific teams using Slack Connect at their companies. Results may vary at your organisation.</sub>
+            </div>
+        </div>
+    </section>
+    <section class="sec-3">
+        <div class="component3">
+            <div class="division1_component3">
+                <ul class="list1_of_comp3">
+                   <li><h2>A1 Marketing Ltd.</h2></li>
+                   <li><i class="fa fa-caret-down icons_com3" aria-hidden="true"></i> Channels </li>
+                   <li><i class="fa fa-hashtag icons_com3 fa-hashtag_comp3" aria-hidden="true"></i>a1-bigcorp</li>
+                   <li><i class="fa fa-hashtag icons_comp3 fa-hashtag_comp3" aria-hidden="true"></i> announcements</li>
+                   <li><i class="fa fa-hashtag icons_com3 fa-hashtag_comp3" aria-hidden="true"></i>tech-alliances </li>
+                   <li><i class="fa fa-hashtag icons_comp3 fa-hashtag_comp3 " aria-hidden="true"></i>win-wire</li>
+                   <li><i class="fa fa-caret-down icons_comp3" aria-hidden="true"></i> Direct messages</li>
+                   <li><i class="fa fa-heart icons_comp3" aria-hidden="true"></i> Slackbot </li>
+                   <li><i class="fa fa-circle icons_comp3" aria-hidden="true"></i>Geeta Joshi (you)</li>
+                   <li><i class="fa fa-circle icons_comp3" aria-hidden="true"></i> Karandeep Singh</li>
+                   <li><i class="fa fa-circle icons_comp3" aria-hidden="true"></i> Kriti Sanyal</li>
+                   <li><i class="fa fa-circle icons_comp3" aria-hidden="true"></i>Fathima Parveen</li>
+                </ul>
+                <ul class="list2_of_comp3">
+                    <li><i class="fa fa-hashtag fa-hashtag_comp3" aria-hidden="true"></i> a1-bigcorp</li>
+                    <hr class="hr_line_comp3">
+                    <li><img class="img1_comp3" src="component3_img\persona-a.IN.png" alt="Pathima"> Fathima Parveen <sub>13:09</sub></li>
+                    <li><div class="smal_box1"></div>Thanks A1 Marketing team! We'd <br>like to move forward with the proposal.
+                         <br>What are our next steps? <br><sub>🎉1</sub></li>
+                    <li> <img class="img2_comp3" src="component3_img\persona-f.en-IN.png" alt="Geeta Joshi">Geeta Joshi <sub>13:15</sub></li>
+                    <li>Amazing! Let me share the contract <br>to be signed here. </li>
+                    <li><div class="smal_box2"></div>Big Corp is in this channel</li>
+                    <li class="box_comp3">Message #a1-bigcorp</li>
+    
+                </ul>
+            </div> 
+            <div class="division2_component3">
+                <h1 class="highlight_text_component3">Connect faster with your partners</h1>
+                <ul class="about_component3">
+                    <li class="list1_div2_comp3">
+                        <i id="check_circle1_comp3" class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <p>Bring communication out
+                         of inboxes and into channels,
+                         where you can <a class="nav_text1_comp3">work quickly and collaboratively
+                         with outside organisations</a></p>
+                    </li>
+                    <li class="list2_div2_comp3"> 
+                         <i id="check_circle2_comp3" class="fa fa-check-circle-o" aria-hidden="true"></i>
+                         <p><a class="nav_text2_comp3">Strengthen client relationships</a> in channels to provide top-tier 
+                         enterprise support and drastically decrease response times,</p>
+                    </li>
+                    <li class="list3_div2_comp3">
+                        <i id="check_circle3_comp3" class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <p>messages and share files in real time to build collective 
+                        insights along the way</p>
+                    </li>
+                </ul>
+                <p class="note_comp3">Get started With Slack Connect
+                    <i id="arrow_right_comp3" class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+            </div>
+        </div>
+    </section>
+    <section class="sec-4">
+        <div class="component4">
+            <div class="division1_component4">
+               <h1 class="highlight_text_component4">
+                Connect securely with outside organisations
+               </h1>
+               <ul class="about_component4">
+                  <li class="list1_div1_comp4">
+                      <i id="check_circle1_comp4" class="fa fa-check-circle-o" aria-hidden="true"></i>  
+                      <p> Keep your work secure with Slack’s enterprise-grade 
+                        security features and compliance standards </p>
+                  </li>
+                  <li class="list2_div1_comp4" >
+                     <i id="check_circle2_comp4" class="fa fa-check-circle-o" aria-hidden="true"></i> 
+                     <p>Gain secure access to communicate and 
+                    collaborate confidently with partner organisations </p>
+                  </li>
+                  <li class="list3_div1_comp4">
+                     <i id="check_circle2_comp4" class="fa fa-check-circle-o" aria-hidden="true"></i> 
+                     <p> Reduce your team’s exposure to the email 
+                        phishing and spam attacks that come with email </p>
+                  </li>
+                  <p class="note_comp4"> Learn more about Slack’s enterprise-grade security 
+                    <i id="arrow_right_comp4" class="fa fa-long-arrow-right" aria-hidden="true"></i></p>  
+              </ul>
+            </div>
+            <div class="division2_component4">
+                <div class="img_comp4">
+                    <img src="component4-img\img-connect-securely.png" alt="connect_securely_image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-5">
+        <div class="component5">
+            <div class="division1_component5">
+                <div class="img_comp5">
+                    <img src="component5_img\connect-tools.jpg" alt="connect_tool_image">
+                </div>
+            </div>
+            <div class="division2_component5">
+                <h1 class="highlight_text_component5">
+                    Connect tools and automate workflows
+                </h1>
+                <ul class="about_component5">
+                    <li class="list1_div2_comp5">
+                        <i id="check_circle1_comp5" class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        <p> Easily book meetings, share documents and simplify
+                         various other routine tasks with apps 
+                        </p> 
+                    </li>
+                    <li class="list2_div2_comp5">
+                       <i id="check_circle2_comp5" class="fa fa-check-circle-o" aria-hidden="true"></i> 
+                       <p>
+                          Streamline processes and speed up collaboration 
+                          by building and connecting new workflows across organisations
+                       </p>
+                    </li>
+                </ul>
+                <p class="note_comp5"> Apps to use in Slack Connect
+                    <i id="arrow_right_comp5" class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </p>  
+            </div>
+        </div>
+    </section>
+    <section class="sec-6">
+            <div class="component6">
+                <div class="division1_component6">
+                    <h1 class="highlight_text_component6">
+                        How to get started
+                    </h1>
+                    <p class="sub_head_comp6"> 
+                        It only takes a few clicks 
+                        to start working closely with 
+                        vendors, customers and more
+                     </p>
+                    <div class="disc_list_comp6">
+                        <dl class="dl_comp6">
+                           <dt><i class="fa fa-address-card-o  address_card_comp6" aria-hidden="true"></i></dt>
+                           <dt class="title_comp6"><h3>1.Create the channel</h3></dt>
+                           <dd class="data_comp6"> Click the + button next to 
+                            Channels in your sidebar. Name the 
+                            channel, and click Create. </dd>
+                        </dl>
+                        <dl class="dl_comp6">
+                           <dt><i class="fa fa-paper-plane  paper_plane_comp6" " aria-hidden="true"></i></dt>
+                           <dt class="title_comp6"><h3>2.Send the invite</h3></dt>
+                           <dd class="data_comp6">Invite your partner right from Slack. If you're on 
+                             the Business+ or Enterprise Grid subscription, 
+                             you can also copy and share the link provided.
+                           </dd>
+                        </dl>
+                        <dl class="dl_comp6">
+                           <dt><i class="fa fa-hand-paper-o  hand_paper_comp6 " aria-hidden="true"></i></dt>
+                           <dt class="title_comp6"><h3>3.Wait for your partner</h3> </dt>
+                           <dd class="data_comp6">After they click on the link, they’ll
+                             be taken back to Slack to accept and 
+                             set up the channel on their end.
+                           </dd>
+                        </dl>
+                        <dl class="dl_comp6">
+                           <dt><i class="fa fa-user-o user_comp6 " aria-hidden="true"></i></dt>
+                           <dt class="title_comp6"><h3>4.admin approval</h3></dt>
+                           <dd class="data_comp6">Depending on your settings, the 
+                            invitation may be sent to an admin
+                             on each team for approval.
+                           </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="sec-7">
+        <div class="component7">
+            <div class="division1_component7">
+                <h1 class="highlight_text_component7">Built for roles of all types</h1>
+                <p class="sub_head_comp7">
+                     Slack Connect allows you to build deeper 
+                     relationships with all the people that you work 
+                     with, no matter the profession.
+                </p>
+                <div class="card_set1_comp7">
+                    <div class="card_comp7">
+                        <dl>
+                           <dt><i class="fa fa-suitcase icon_comp7" aria-hidden="true"></i></dt>
+                           <dt class="title_comp7">Sales</dt>
+                           <dd class="data_comp7"> Close deals with prospects faster</dd>
+                           <dd><i class="fa fa-long-arrow-right right_arrow1_comp7" aria-hidden="true"></i> </dd>
+                        </dl>
+                    </div>
+                    <div class="card_comp7">
+                        <dl>
+                            <dt><i class="fa fa-podcast icon_comp7" aria-hidden="true"></i> </dt>
+                            <dt class="title_comp7">Customer success</dt>
+                            <dd class="data_comp7">Build stronger customer relationships</dd>
+                            <dd><i class="fa fa-long-arrow-right right_arrow2_comp7" aria-hidden="true"></i></dd>
+                        </dl>
+                    </div>
+                    <div class="card_comp7 set1_card3">
+                        <dl>
+                            <dt><i class="fa fa-user-circle icon_comp7" aria-hidden="true"></i> </dt>
+                            <dt class="title_comp7">Service</dt>
+                            <dd class="data_comp7">Resolve customer issues faster </dd>
+                           <dd><i class="fa fa-long-arrow-right right_arrow3_comp7" aria-hidden="true"></i></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="card_set2_comp7">
+                    <div class="card_comp7">
+                        <dl>
+                            <dt><i class="fa fa-volume-up icon_comp7"aria-hidden="true"></i></dt>
+                            <dt class="title_comp7">Marketing</dt>
+                            <dd class="data_comp7">Work faster with agency partners</dd>
+                            <dd><i class="fa fa-long-arrow-right right_arrow4_comp7" aria-hidden="true"></i></dd> 
+                        </dl>
+                    </div>
+                    <div class="card_comp7">
+                        <dl>
+                            <dt><i class="fa fa-cog icon_comp7" aria-hidden="true"></i> </dt>
+                            <dt class="title_comp7"> Operations</dt>
+                            <dd class="data_comp7">Work quickly with vendors and suppliers </dd>
+                            <dd><i class="fa fa-long-arrow-right right_arrow5_comp7" aria-hidden="true"></i></dd> 
+                        </dl>
+                    </div>
+                    <div class="card_comp7">
+                        <dl>
+                            <dt><i class="fa fa-tree icon_comp7" aria-hidden="true"></i> </dt>
+                            <dt class="title_comp7">Business development</dt>
+                            <dd class="data_comp7">Work quickly with partners on joint initiatives</dd>
+                            <dd><i class="fa fa-long-arrow-right right_arrow6_comp7" aria-hidden="true"></i></dd> 
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="division2_component7">
+               <img class="img_comp7" src="component7_img\img-roles.png" alt="slack roles_img">
+            </div>
+        </div>
+    </section>
+    <section class="sec-8">
+        <div class="component8">
+            <div class="division1_component8">
+                <h1 class="highlight_text_component8"> Join the 350,000+ organisations working in Slack Connect </h1>
+                <p class="sub_head_comp8">See all customer stories
+                <i class="fa fa-long-arrow-right right_arrow_comp8" aria-hidden="true"></i></p>
+                <i class="fa fa-chevron-left chevron_left_comp8" aria-hidden="true"></i>
+                <div class="card_slid_comp8">
+                    <img  class="image_comp8" src="component8_img\iress-customer-story-hero-image@2x.jpg" alt="iress_img8">
+                    <ol class="list_comp8">
+                       <li><img class="iress_logo_comp8" src="component8_img\iress-logo@2x.png" alt="iress logo"></li>
+                       <li><p class="note_comp8">Slack helps us to drive a culture of one global team that is 
+                               accessible and works closely and cohesively together to deliver
+                               great things for our clients and users.</p></li>
+                        <li><h4 class="sig_comp8">Andrew Walsh</h4></li>
+                        <li class="ceo_comp8">CEO</li>
+                       <li class="story_link_comp8"><p>READ STORY<i class="fa fa-long-arrow-right right_arrow_comp8" aria-hidden="true"></i></p></li>
+                    </ol>
+                </div> 
+                <i class="fa fa-chevron-right chevron_right_comp8" aria-hidden="true"></i>
+                <div class="dotes_comp8">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section class="sec-9">
+        <div class="division1_component9">
+            <ul class="list_of_logo_comp9">
+                <li><img src="component8_img\peloton-logo.png" alt=" peloton-logo"></li>
+                <li><img src="component8_img\target-logo.png " alt="target-logo"></li>
+                <li><img src="component8_img\uber.png" alt="uber-logo"></li>
+                <li><img src="component8_img\logo-seek.png " alt="seek-logo"></li>
+                <li><img src="component8_img\time-logo.png" alt=" time-logo"></li>
+                <li><img class="desk_logo_comp9" src="component8_img\autodesk-logo-2021.png" alt="auto desk-logo"></li>
+                <li><img src="component8_img\airbnb-logo.png" alt="airbnb-logo"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-10">
+        <div class="division1_component10">
+            <h1 class="highlight_text_component10">
+                Learn more about Slack Connect
+            </h1>
+            <div class="card_list_comp10">
+                <ul class="card_comp10">
+                    <li><img src="component10_img\promo-slack-connect-security1.png" alt="promo security image"></li>
+                    <li><p class="card_name_comp10">Blog</p></li>
+                    <li><h2 class="card_highlight_text_comp10">See why one more than 100k organisations trust Slack Connect</h2></li>
+                    <li class="navi_text1_comp10">
+                        <p>READ STORY</p><i class="fa fa-long-arrow-right right_arrow_comp10" aria-hidden="true"></i>
+                    </li>
+                </ul>
+                <ul class="card_comp10">
+                    <li> <img src="component10_img\slack-connect-for-remote-work-promo-image2.jpg" alt=" remote work promo image"></li>
+                    <li><p class="card_name_comp10">Blog</p></li>
+                    <li><h2 class="card_highlight_text_comp10">Slack Connect for remote work</h2></li>
+                    <li class="navi_text2_comp10">
+                        <p>READ STORY</p><i class="fa fa-long-arrow-right right_arrow_comp10" aria-hidden="true"></i>
+                    </li>
+                </ul>
+                <ul class="card_comp10">
+                    <li> <img src="component10_img\shared-channels-external-collaboration-in-slack3.jpg" alt=" channels collaboration image"></li>
+                    <li><p class="card_name_comp10">Resource</p></li>
+                    <li><h2 class="card_highlight_text_comp10">Guest accounts vs sharing a channel</h2></li>
+                    <li class="navi_text3_comp10">
+                       <p> LEARN MORE</p><i class="fa fa-long-arrow-right right_arrow_comp10" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="sec-11">
+        <div class="division1_component11">
+            <h1 class="highlight_text_component11">Frequently asked questions</h1>
+            <hr class="hr1_line_comp11">
+            <ul class="list_of_comp11">
+                <li class="list_comp11">
+                    <p class="question_comp11">Is Slack Connect free?</p>
+                    <i class="fa fa-chevron-down chevron-down_comp11" aria-hidden="true"></i>
+                </li><hr class="hr_line_comp11"> 
+                <li class="list_comp11">
+                    <p class="question_comp11">How do i start working with someone outside my company in Slack?</p>
+                    <i class="fa fa-chevron-down chevron-down_comp11" aria-hidden="true"></i>
+                </li><hr class="hr_line_comp11">
+                <li class="list_comp11">
+                    <p class="question_comp11">What's the difference between Slack Connect and Slack channels?</p>
+                    <i class="fa fa-chevron-down chevron-down_comp11" aria-hidden="true"></i>
+                </li> <hr class="hr_line_comp11">
+                <li class="list_comp11">
+                    <p class="question_comp11">How is Slack Connect more secure than email?</p>
+                    <i class="fa fa-chevron-down chevron-down_comp11" aria-hidden="true"></i>
+                </li><hr class="hr_line_comp11">
+                <li class="list_comp11">
+                    <p class="question_comp11">What are some recommended use cases for Slack Connect?</p>
+                    <i class="fa fa-chevron-down chevron-down_comp11" aria-hidden="true"></i>
+                </li><hr class="hr_line_comp11">
+            </ul>
+        </div>
+    </section>
+    <section class="sec-12">
+        <div class="division1_component12">
+            <div class="color_screen_comp12">
+                <h1 class="highlight_text_component12">Interested in Slack Connect?</h1>
+                <button class="button_comp12" type="button">CONTACT SALES</button>
+            </div>
+        </div>
+        <div class="division2_component12">
+                <span>
+                <p class="navi_text_comp12"><i class="fa fa-globe global_icon_comp12" aria-hidden="true">
+                </i> Change region<i class="fa fa-chevron-down chevron-down_comp12" aria-hidden="true"></i></p>
+                </span>
+            <ul class="icon_list_comp12">
+                <li><b>in</b></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                <li><b>X</b></li>
+                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                <li><i class="fa fa-music" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </section>
+    <section class="sec-13">
+        <hr class="hr_line_comp13">
+        <div class="component13"> 
+            <div class="division1_component13">
+                <img class="logo_image_comp13"src="component13_logo_img\logo.jfif" alt="Slack logo">
+            </div>
+            <div class="division2_list_of_comp13">
+                <ol class="list_comp13">
+                    <li><b>PRODUCT</b></li>
+                    <li>Watch demo</li>
+                    <li>Pricing</li>
+                    <li>Paid vs Free</li>
+                    <li>Accessibility</li>
+                    <li>Featured releases</li>
+                    <li>Change log</li>
+                    <li>Status</li><br>
+                    <li><b>WHY SLACK?</b></li>
+                    <li>Slack vs email</li>
+                    <li>Enterprise</li>
+                    <li>Small business</li>
+                    <li>Productivity</li>
+                    <li>Task management</li>
+                    <li>Scale</li>
+                    <li>Trust</li>
+                </ol>
+                <ol class="list_comp13">
+                    <li><b>FEATURES</b></li>
+                    <li>Channels</li>
+                    <li>Slack Connect</li>
+                    <li>Workflow Builder</li>
+                    <li>Messaging</li>
+                    <li>Huddles</li>
+                    <li>Canvas</li>
+                    <li>Lists</li>
+                    <li>Clips</li>
+                    <li>Search</li>
+                    <li>Apps&integrations</li>
+                    <li>File sharing</li>
+                    <li>Slack AI</li>
+                    <li>Security</li>
+                    <li>Enterprise Key</li>
+                    <li>Management</li>
+                    <li>Slack Atlas</li>
+                </ol>
+                <ol class="list_comp13">
+                    <li><b>SOLUTIONS</b></li>
+                    <li>IT</li>
+                    <li>Customer service</li>
+                    <li>Sales</li>
+                    <li>Project management</li>
+                    <li>Marketing</li>
+                    <li>Security</li>
+                    <li>Technology</li>
+                    <li>Media</li>
+                    <li>Financial services</li>
+                    <li>Retail</li>
+                    <li>Education</li>
+                    <li>Health and life sciences</li>
+                    <li>See all solutions</li>
+                </ol>
+                <ol class="list_comp13">
+                    <li><b>RESOURCES</b></li>
+                    <li>Help Centre</li>
+                    <li>What's new</li>
+                    <li>Resources library</li>
+                    <li>Slack blog</li>
+                    <li>Community</li>
+                    <li>Customer stories</li>
+                    <li>Events</li>
+                    <li>Developers</li>
+                    <li>Partners</li>
+                    <li>Partner offers</li>
+                    <li>App Directory</li>
+                    <li>Slack Certified</li>
+                </ol>
+                <ol class="list_comp13">
+                    <li><b>COMPANY</b></li>
+                    <li>About us</li>
+                    <li>News</li>
+                    <li>Media kit</li>
+                    <li>Brand centre</li>
+                    <li>Careers</li>
+                    <li>Slack shop</li>
+                    <li>Design blog</li>
+                    <li>Contact us</li>
+                </ol>
+           </div>
+        </div>
+        <hr class="hr_line_comp13">
+        <div class="division3_component13">
+            <ul class="list_div3_comp13">
+                <li><p class="link_comp13">Dowload slack <i class="fa fa-cloud-download" aria-hidden="true"></i> </p></li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Cookie preferences</li>
+                <li>Your privacy choices <span class="choice_comp13">
+                    <i class="fa fa-check check_icon_comp13" aria-hidden="true"></i> 
+                    <i class="fa fa-times-circle X_icon_comp13" aria-hidden="true"></i></span>
+                </li>  
+            </ul>
+            <p class="trade_comp13"> ©2024 Slack Technologies, LLC, a Salesforce company. 
+                All rights reserved. Various trademarks held by their respective owners.</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="Slack.js"></script>
+</body>
+</html>

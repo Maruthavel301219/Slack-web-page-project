@@ -1,0 +1,20 @@
+
+    
+@media screen and (max-width:768px) {
+    .searchglass {
+        left: 187px;}
+}
+
+@media screen and (min-width:769px) and (max-width: 988px) {
+
+    .searchglass {
+        left: 191px;} 
+}
+
+@media screen and (min-width:989px) and (max-width: 1102px) {
+
+    .searchglass {
+        left: 209px;} 
+}
+
+

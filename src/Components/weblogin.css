@@ -1,0 +1,161 @@
+.authendicationtemplate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 453px;
+    width: 366px;
+    border: 0px solid blue;
+    box-shadow: 0px 0px 46px -16px blue;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+
+.logintemplate{
+    
+    
+    background-color: blueviolet;
+    color: white;
+    width: 315px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-left: 7px;
+}
+
+.signuptemplate{
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+
+
+.logintemplate>input,.signuptemplate input {
+    width: 298px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 10px -3px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 0px 16px 20px 9px;
+}
+
+
+.logintemplate>input::placeholder,.signuptemplate input::placeholder{
+    color: blueviolet;
+}
+
+.logintemplate>input:focus,
+.logintemplate>input:active,
+.signuptemplate input:active,
+.signuptemplate input:focus {
+    border: 2px solid white;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.logintemplate>input:hover,
+.signuptemplate input:hover {
+    border: 1px solid white;
+    background-color: blueviolet;
+
+}
+
+.logintemplate>input:hover::placeholder,
+.signuptemplate input:hover::placeholder {
+    color: white;
+}
+
+.loginbutton,#signupsubmit {
+    
+    width: 297px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 10px -3px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    background-color: blue;
+    margin: 0 18px 20px 9px;
+}
+
+.siginuptext {
+    color: lightcoral;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.authendicationparent {
+
+    height: 600px;
+    background-color: gainsboro;
+    box-shadow: 0px 0px 16px -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 125px;
+
+}
+
+.loginwelcom,.signinwelcom {
+    font-family: cursive;
+
+}
+
+/* loader function*/
+
+#loader {
+    display: inline-block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    position: absolute;
+    left: 50%;
+    height: 50vh;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  #loader::before {
+    content: '';
+    position: absolute;
+    left: 34px;
+    width: 35px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid #FFF;
+    border-bottom-color: blueviolet;
+    box-sizing: border-box;
+    top: 72px;
+    animation: rotation 0.6s linear infinite;
+}
+  
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 

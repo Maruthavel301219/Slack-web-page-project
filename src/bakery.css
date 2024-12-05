@@ -1,0 +1,367 @@
+
+
+
+.headernavigations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+
+
+.headernavigations>button:focus,.headernavigations>button>a:focus {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+
+.headernavigations>button>a {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px -3px;
+    display: inline-block;
+    padding: 11px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.headernavigations>button{
+    border: none;
+    border-radius: 30px;
+}
+
+.headernavigations>button:hover,
+.headernavigations>button>a:hover{background-color: blueviolet;
+    color: white;
+}
+
+
+
+
+body {
+    
+    background-color: white;
+    
+    
+}
+
+.modelitems>div>.productimage {
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.modelitems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.modelitems>.productimageparent {
+    position: relative;
+}
+
+
+
+.logo {
+    width: 205px;
+    height: 119px;
+}
+
+.logo.stickylogo{height: 98px;}
+
+.flexiblealign {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.headparent {
+    
+    margin-top: 24px;
+    border-radius: 30px;
+}
+
+.viewmoreoptions>button {
+    width: 25%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgba(100, 200, 0, 1);
+    color: white;
+    border: .2px solid white;
+    box-shadow: 0px 0px 7px -2px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+}
+
+.viewmoreparent {
+    margin: 15px;
+}
+
+.viewmoreoptions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.viewmoreoptions>button:hover {
+    cursor: pointer;
+    background-color: blue;
+    font-weight: 800;
+    box-shadow: 0px 0px 15px -2px;
+}
+
+.viewmoreoptions>button:focus {
+    cursor: pointer;
+    background-color: darkblue;
+    font-weight: 800;
+    box-shadow: 0px 0px 15px -2px;
+
+}
+
+.footer {
+    max-height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px;
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+.footerparent {
+    box-shadow: 0px 0px 7px -2px;
+}
+
+.footerdivision {
+    background-color: black;
+}
+
+
+.slash {
+    border: 1px solid white;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    height:  143px;
+    transform: rotate(30deg);
+}
+
+.offerlables {
+    width: 112px;
+    height: 69px;
+    object-fit: cover;
+    position: absolute;
+    transform: rotate(-37deg);
+    right: 73%;
+    bottom: 348px;
+}
+
+.searchbar {
+    width: 600px;
+    border: none;
+    box-shadow: 0px 0px 10px -4px;
+    height: 40px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    outline: none;
+}
+
+
+.searchbar:hover {
+    border: 2px solid blue;
+    box-shadow: 1px 1px 10px -3px;
+}
+
+.searchbar:focus{border: 2px solid blueviolet;
+    box-shadow: 1px 1px 10px -3px;}
+
+.allcakeproducts,
+.allmixtureproducts,
+.allsweetproducts,
+.allsearchproducts
+ {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 15px 0px 19px -21px,0px 18px 19px -22px,-15px 0px 19px -21px,0px -18px 19px -27px;
+    margin-right: 15px;
+}
+
+.allcartproducts{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 15px 0px 19px -21px,0px 18px 19px -22px,-15px 0px 19px -21px,0px -18px 19px -27px;
+    margin-right: 15px;
+}
+
+.allcakeproductsparent,
+.allmixtureproductsparent,
+.allsweetproductsparent,
+.allsearchparent
+ {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.allcakeproductsparent .cakeparents,
+.allmixtureproductsparent .mixtureparents,
+.allsweetproductsparent .sweetparents,
+.allsearchparent .searchparent{
+    margin: 40px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.dynamicproducts {
+    background-color: white;
+    
+    
+}
+
+.cakeparents>button,
+.mixtureparents>button,
+.sweetparents>button,
+.searchparent>button {
+    width: 53%;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(100, 200, 30, 1);
+    border: 0px solid white;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 0px 0px 7px -2px;
+    font-size: 20px;
+    border-radius: 30px;
+    
+}
+
+.cakeparents>button:hover,
+.mixtureparents>button:hover,
+.sweetparents>button:hover,
+.searchparent>button:hover {
+    border: 1px solid white;
+    background-color: blue;
+}
+
+.cakeparents>button:focus,
+.mixtureparents>button:focus,
+.sweetparents>button:focus,
+.searchparent>button:focus {
+    background-color: darkblue;
+}
+
+.adds{text-align: center;
+color: blueviolet;
+padding-top: 45px;
+font-family: cursive;}
+
+.cartlink{
+    font-size: 25px;
+}
+
+.productdetails{color: brown;}
+
+.searchglass{position: absolute;
+left: 262px;
+top: 28px;
+color: blueviolet;
+font-size: 18px;}
+
+.header>::placeholder{color: blueviolet;
+font-size: 16px;
+font-family: cursive;}
+
+
+.footernavigations{display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+width: 31%;}
+
+.ownerdetails>li{
+    list-style: none;
+    padding: 5px;
+}
+
+.footernavigations>li>a{
+    color: white;
+}
+
+
+
+.stickyheader{
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 55px;
+    box-shadow: 0px 0px 10px -2px;
+    height: 115px;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.cartvalue{
+    font-size: 20px;
+    position: absolute;
+    top: 14px;
+    border-radius: 50%;
+    width: 24px;
+    box-sizing: border-box;
+    padding: 3px;
+    height: 27px;
+    box-shadow: 0px 0px 18px -3px;
+}
+
+#item_is_added{background-color: blueviolet;}
+
+.cartitemparent{
+    display: flex;
+    align-items: center;
+}
+.allcartproductparent{
+    margin-top: 30px;
+}
+
+.routingparent{
+    padding: 0 10px;
+}
